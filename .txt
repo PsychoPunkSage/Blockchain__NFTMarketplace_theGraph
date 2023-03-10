@@ -1,0 +1,3 @@
+ Upload subgraph to IPFS
+
+Build completed: QmUc6XgtL3tzQfod5RrevABY2qoYvoDhs9iVXkxxpPxP88 -> Code for subgraph on IPFS

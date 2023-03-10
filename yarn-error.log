@@ -1,0 +1,44 @@
+Arguments: 
+  /home/amaterasu/.nvm/versions/node/v18.12.1/bin/node /home/amaterasu/.cache/node/corepack/yarn/1.22.19/bin/yarn.js
+
+PATH: 
+  /home/amaterasu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/bin/remote-cli:/home/amaterasu/.local/bin:/home/amaterasu/.nvm/versions/node/v18.12.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/ABHINAV PRAKASH/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/ABHINAV PRAKASH/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/ABHINAV PRAKASH/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/ABHINAV PRAKASH/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/ABHINAV PRAKASH/AppData/Roaming/npm:/mnt/c/Users/ABHINAV PRAKASH/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/MinGW/bin:/snap/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.12.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: read ECONNRESET
+      at TLSWrap.onStreamRead (node:internal/stream_base_commons:217:20)
+
+npm manifest: 
+  {
+    "name": "graph-nft-marketplace",
+    "license": "UNLICENSED",
+    "scripts": {
+      "codegen": "graph codegen",
+      "build": "graph build",
+      "deploy": "graph deploy --node https://api.studio.thegraph.com/deploy/ graph-nft-marketplace",
+      "create-local": "graph create --node http://localhost:8020/ graph-nft-marketplace",
+      "remove-local": "graph remove --node http://localhost:8020/ graph-nft-marketplace",
+      "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 graph-nft-marketplace"
+    },
+    "dependencies": {
+      "@apollo/client": "^3.5.10",
+      "@graphprotocol/graph-cli": "0.28.0",
+      "@graphprotocol/graph-ts": "0.26.0",
+      "ethers": "^5.6.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
