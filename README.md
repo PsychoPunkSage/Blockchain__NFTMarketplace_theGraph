@@ -1,6 +1,4 @@
-# Graph NFT Marketplace FCC
-
-_Be sure to double check if Rinkeby or Goerli is best for learning as Rinkeby is getting sunset_
+# Graph NFT Marketplace
 
 # Quickstart
 
